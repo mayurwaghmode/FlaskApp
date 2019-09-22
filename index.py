@@ -1,7 +1,10 @@
 from flask import Flask,render_template,request
 from pymongo import MongoClient
 
+#commetnt
+
 app=Flask(__name__)
+
 client=MongoClient("mongodb+srv://Mayur:Mayur@123@cluster0-nv63c.mongodb.net/test?retryWrites=true&w=majority")
 users=client["users"]
 user_coll=["user_coll"]
